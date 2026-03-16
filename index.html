@@ -11,7 +11,11 @@
       <!-- Top / About -->
       <section class="top">
         <div class="left">
-          <h3>Urmi Saha</h3>
+          <div class="mt-4 flex gap-4 text-sm">
+            <a href="https://scholar.google.com" class="text-blue-600 hover:underline">Google Scholar</a>
+            <a href="https://github.com/SahaUrmi" class="text-blue-600 hover:underline">GitHub</a>
+            <a href="https://www.linkedin.com/in/urmi-saha" class="text-blue-600 hover:underline">LinkedIn</a>
+          </div>
           <p>
             Currently, I am a Master’s student in Computer Science at the
             <a href="https://cs.wfu.edu/" target="_blank">Department of Computer Science</a>,
@@ -116,127 +120,94 @@
       </section>
 
       <!-- Professional Experience -->
-      <section class="professional">
-        <h3>Professional Experience</h3>
-        <hr />
+      <section class="max-w-7xl mx-auto px-4 py-10">
+  <div class="bg-white rounded-2xl p-6 card">
 
-        <div class="professionalExperienceContainer informationBox">
-          <div class="left">
-            <h3><i>Graduate Research Assistant</i></h3>
-            <b>Modeling and Learning Lab, Department of Computer Science, Wake Forest University</b>
-            <ul>
-              <li>
-                Collaborating with UCSF’s Raj Lab on tau-protein propagation modeling,
-                leveraging operator-learning frameworks for PDE-based brain dynamics
-                on high-dimensional brain connectomes. (Lead project)
-              </li>
-              <li>
-                Contributing architectural components and co-authoring manuscripts on
-                multitask fMRI modeling, including cognitive and clinical prediction tasks.
-              </li>
-            </ul>
-          </div>
-          <div class="right">
-            <h5>Winston-Salem, North Carolina, USA</h5>
-            <p><i>August 2025 – Present</i></p>
-          </div>
-        </div>
+    <h2 class="text-2xl font-semibold text-slate-800 mb-4">Research & Professional Experience</h2>
 
-        <div class="professionalExperienceContainer informationBox">
-          <div class="left">
-            <h3><i>Summer Internship: Research Assistant</i></h3>
-            <b>Chen’s Modeling and Learning Lab, Wake Forest University</b>
-            <ul>
-              <li>
-                Processed large-scale <code>.mat</code> data for a generalized AI pipeline
-                and engineered positional encodings to capture trajectory predictions
-                over regions × time steps.
-              </li>
-              <li>
-                Achieved &lt; 4 × 10<sup>−4</sup> MSE on trajectory prediction to support
-                early disease modeling, emphasizing stability and physical consistency.
-              </li>
-            </ul>
-          </div>
-          <div class="right">
-            <h5>Winston-Salem, North Carolina, USA</h5>
-            <p><i>June 2025 – July 2025</i></p>
-          </div>
-        </div>
+    <div class="space-y-6 text-sm text-slate-700">
 
-        <div class="professionalExperienceContainer informationBox">
-          <div class="left">
-            <h3><i>Graduate Teaching Assistant</i></h3>
-            <b>Department of Computer Science, Wake Forest University</b>
-            <ul>
-              <li>
-                Assisted for CSC 111 (Introduction to Computer Science), Fall 2024, and
-                CSC 102 (Problem Solving with Python), Spring 2025.
-              </li>
-              <li>
-                Mentored students in debugging, algorithmic thinking, and code efficiency
-                during office hours and TA Center sessions (approximately 25 students per semester).
-              </li>
-            </ul>
-          </div>
-          <div class="right">
-            <h5>Winston-Salem, North Carolina, USA</h5>
-            <p><i>August 2024 – May 2025</i></p>
-          </div>
-        </div>
+      <div>
+        <h3 class="font-semibold">Graduate Research Assistant</h3>
+        <p class="text-slate-500">Wake Forest University | Aug 2025 – Present</p>
+        <ul class="list-disc ml-5 mt-2">
+          <li>Research on tau-protein propagation modeling using neural operator frameworks for PDE-based brain dynamics.</li>
+          <li>Collaborating with the Raj Lab at UCSF on connectome-scale modeling of neurodegenerative disease progression.</li>
+          <li>Generated datasets across multiple systems biology models for operator learning and sampling strategies.</li>
+        </ul>
+      </div>
 
-        <div class="professionalExperienceContainer informationBox">
-          <div class="left">
-            <h3><i>Lecturer, Dept. of Computer Science and Engineering</i></h3>
-            <b>Bangladesh Army University of Science and Technology (BAUST)</b>
-            <ul>
-              <li>
-                Maintained OBE curriculum, developed course materials, and prepared
-                questions addressing complex engineering problems.
-              </li>
-              <li>
-                Taught Computer System, Structured Programming Language, OOP, Numerical Method,
-                Applied Statistics for Computer Science, Mathematical Analysis for CS,
-                Artificial Intelligence, and Database with associated lab classes.
-              </li>
-              <li>
-                Served as academic advisor, guiding students in research and career planning.
-              </li>
-            </ul>
-          </div>
-          <div class="right">
-            <h5>Saidpur, Bangladesh</h5>
-            <p><i>November 2021 – July 2024</i></p>
-          </div>
-        </div>
-      </section>
+      <div>
+        <h3 class="font-semibold">Summer Research Intern</h3>
+        <p class="text-slate-500">Chen’s Modeling and Learning Lab | Jun 2025 – Jul 2025</p>
+        <ul class="list-disc ml-5 mt-2">
+          <li>Implemented AI surrogate models including Fourier Neural Operators, Wavelet Neural Operators, Laplace Neural Operators, and DeepONet.</li>
+          <li>Developed generalized pipeline for trajectory prediction across brain regions and time steps.</li>
+          <li>Achieved trajectory prediction error below 4 × 10⁻⁴ MSE.</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="font-semibold">Graduate Teaching Assistant</h3>
+        <p class="text-slate-500">Wake Forest University | Aug 2024 – May 2025</p>
+        <ul class="list-disc ml-5 mt-2">
+          <li>Assisted teaching for Introduction to Computer Science and Problem Solving with Python.</li>
+          <li>Mentored students in debugging, algorithmic thinking, and programming concepts.</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="font-semibold">Lecturer</h3>
+        <p class="text-slate-500">Bangladesh Army University of Science and Technology | Nov 2021 – Jul 2024</p>
+        <ul class="list-disc ml-5 mt-2">
+          <li>Taught courses including Computer Systems, OOP, Numerical Methods, DBMS, and Applied Statistics.</li>
+          <li>Developed course materials following Outcome-Based Education (OBE) guidelines.</li>
+          <li>Advised undergraduate students on research and academic planning.</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
 
       <!-- Publications -->
-      <section class="publications">
-        <h3>Publications</h3>
-        <hr />
-        <div class="publicationsContainer informationBox">
-          <div class="left">
-            <ul>
-              <li>
-                <strong>Prediction of Depression Level based on Human Activities and Feelings:
-                  A Fuzzy Logic Based Analysis</strong>.<br />
-                <i>Data Science and Management (Elsevier), 2024</i><br />
-                U. Saha, S. M. M. Hossain, &amp; I. H. Sarker<br />
-                <a href="https://doi.org/10.1016/j.dsm.2024.11.003" target="_blank">Access here</a>
-              </li>
-
-              <li>
-                <strong>Classification of Tumor Cell Using a Naive Convolutional Neural Network Model</strong>.<br />
-                <i>Machine Intelligence and Emerging Technologies, Springer LNICS, 2023</i><br />
-                D. Gupta, S. R. Hassan, R. Gupta, U. Saha &amp; M. S. Ali<br />
-                <a href="https://link.springer.com/chapter/10.1007/978-3-031-34619-4_14" target="_blank">
-                  Access here
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="right"></div>
+      <section class="max-w-7xl mx-auto px-4 py-10">
+        <div class="bg-white rounded-2xl p-6 card">
+          <h2 class="text-2xl font-semibold text-slate-800 mb-4">Publications</h2>
+      
+          <ul class="space-y-3 text-sm text-slate-700">
+      
+            <li>
+              <strong>BNO-Tau: Brain Neural Operator for Tau Transport Model</strong><br>
+              N. Barron, H. Rao, <strong>U. Saha</strong>, Y. Gu, G. Yu, F. Yang, A. Raj, and M. Chen.<br>
+              <span class="text-slate-500">Submitted to Nature Computational Science</span>
+            </li>
+      
+            <li>
+              <strong>MAMBAxBrain: A Multi-task Neural Framework Linking Brain Functional Dynamics to Individual Fingerprints, Cognitive and Disease States</strong><br>
+              Y. Xia, F. Arab, <strong>U. Saha</strong>, B. Sipes, M. Chen, A. Raj.<br>
+              <span class="text-slate-500">Submitted + bioRxiv</span>
+            </li>
+      
+            <li>
+              <strong>Predicting Depression Level Based on Human Activities and Feelings: A Fuzzy Logic-Based Analysis</strong><br>
+              <strong>U. Saha</strong>, S. M. M. Hossain, I. H. Sarker.<br>
+              <span class="text-slate-500">Data Science and Management (Elsevier), 2024</span>
+            </li>
+      
+            <li>
+              <strong>Classification of Tumor Cell Using a Naive Convolutional Neural Network Model</strong><br>
+              D. Gupta, S. R. Hassan, R. Gupta, <strong>U. Saha</strong>, M. S. Ali.<br>
+              <span class="text-slate-500">International Conference on Machine Intelligence and Emerging Technologies (MIET), 2022</span>
+            </li>
+      
+            <li>
+              <strong>How Well Can LLM Commits Help Developers' Development Process?</strong><br>
+              <strong>U. Saha</strong>, Y. Zhang.<br>
+              <span class="text-slate-500">Manuscript in preparation</span>
+            </li>
+      
+          </ul>
         </div>
       </section>
 
